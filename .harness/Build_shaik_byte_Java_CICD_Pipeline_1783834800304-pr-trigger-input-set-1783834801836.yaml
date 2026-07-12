@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_shaik_byte_Java_CICD_Pipeline_1783834800304-pr-trigger-input-set
+  identifier: Build_shaik_byte_Java_CICD_Pipeline_1783834800304prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Test
+  pipeline:
+    identifier: Build_shaik_byte_Java_CICD_Pipeline_1783834800304
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
